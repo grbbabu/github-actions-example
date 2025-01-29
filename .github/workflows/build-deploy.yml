@@ -1,13 +1,8 @@
 name: build-deploy-example
-
 on: push
-
 jobs:
-
   build-deploy-example:
-
     runs-on: ubuntu-latest
-
     steps:
       - name: checkout repo
       - uses: actions/checkout@v4
